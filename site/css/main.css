@@ -1,0 +1,81 @@
+/* add CSS here */
+.cadre_principal {
+background-color:#eeeeee;
+box-shadow: 4px 4px 4px #222222;
+border:solid 10px white;
+}
+
+body {
+background-color:#555555;
+padding-top: 60px;
+padding-bottom: 40px;
+}
+
+li {
+margin-left:20px;
+}
+.navbar li {
+margin-left:0px;
+}
+
+h1 {
+margin-left:10px;
+color:#96b2ea;
+}
+
+h2 {
+color: #004575;
+background-color: #cccccc;
+border-radius: 5px;
+margin-top: 25px;
+margin-left:15px;
+padding-left:10px;
+padding-right:5%;
+display: table;
+}
+
+h3 {
+margin-left: 40px;
+}
+
+.hero-unit h1 {
+color: #96b2ea;
+background-color: transparent;
+}
+
+.sous_menu {
+background-color: #65a6d1;
+}
+
+.navsous_menu {
+ margin-left: 15px;
+ margin-right: 15px;
+
+}
+
+.sous-titre {
+    margin-left : 60px;
+}
+
+.item {
+    border: 1px solid #eeeeee;
+    text-align: center;
+    overflow: hidden;
+}
+
+.item img {
+  max-width: 100%;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.item:hover img {
+  -moz-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
+ul {
+    list-style-type: none;
+}
